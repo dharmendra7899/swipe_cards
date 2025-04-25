@@ -1,6 +1,11 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 
+/*
+create by Dhramendra Kumar on 25th April 2025 at 6pm
+ i have create card swiper demo with animated
+ */
+
 void main() {
   runApp(const MyApp());
 }

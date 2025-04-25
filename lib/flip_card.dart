@@ -46,7 +46,6 @@ class _FlipCardState extends State<FlipCard> {
               onCardCollectionAnimationComplete: (value) {
                 debugPrint("onCardCollectionAnimationComplete :::: $value");
               },
-              // Build each card widget
               cardBuilder: (context, index, visibleIndex) {
                 final card = cards[index];
                 return Container(
@@ -75,7 +74,6 @@ class _FlipCardState extends State<FlipCard> {
                   width: 370,
                   height: 200,
                   decoration: BoxDecoration(
-                    // color: Colors.blueGrey,
                     color: Colors.blueGrey,
                     borderRadius: BorderRadius.circular(25),
                   ),
